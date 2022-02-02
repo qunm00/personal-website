@@ -1,0 +1,38 @@
+#main {
+  display: flex;
+}
+
+#content {
+  margin: 10px;
+}
+
+@media screen and (min-width: 576px) {
+  #main {
+    flex-direction: row;
+  }
+  #main aside {
+    width: 90vw;
+  }
+}
+
+h3 {
+  text-align: center;
+}
+
+header h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

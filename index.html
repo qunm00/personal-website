@@ -1,1 +1,166 @@
-<h1>Hello World!</h1>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <header>
+      <h1 class="header">Quan Nguyen</h1>
+    </header>
+
+    <div id="main">
+      <aside class="side-bar"></aside>
+      <div id="content">
+        <h3 class="ui block header attached top">About me</h3>
+
+          <div class="ui attached segment">
+            <div class="content">
+              <div class="description">
+                <ul>
+                  <li>Hold a bachelor degree in Economics from San Francisco State University.</li>
+                  <li>In the past five years, I haved worked at an investment bank, a logistics start up, an interior design firm, and a plastic manufacturer.</li>
+                  <li>Career goal is to make contribution to open-source community and successfully develop several small programming projects.</li>
+                  <li>I have a long journey ahead.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        <h3 class="ui block header attached top">Personal projects</h3>
+
+          <div class="ui attached segment">
+            <div class="content">
+              <h4 class="header">Dead Simple To-do List</h4>
+              <div class="description">
+                <p>
+                  This project is a cross-platform iOS and Android to-do list.
+                  The project is developed using React Native and Expo. 
+                  I started this project after finishing Full Stack React Native book published by Newline.
+                  I didn't plan to make a to-do list at first. I didn't know what application I could build.
+                  The project started with just an input bar, then I thought about how to render the inputs.
+                  I wanted to try swipable component in React Native.
+                  I searched and found <a href="https://www.kurzor.net/blog/react-native-swipeable-list">this article</a> that helps me implementing swipable component with Animated.View instead of using a library.
+                </p>
+                <a href="https://github.com/nmiquan/dead-simple-todo-list" class="ui button">Github's repository</a>
+              </div>
+            </div>
+          </div>
+
+        <h3 class="ui block header attached top">Hyperskill - Java Backend Developer track's four graduate projects</h3>
+
+          <div class="ui attached segment">
+            <div class="ui divided items">
+
+              <div class="item">
+                <div class="content">
+                  <h4 class="header">Code Sharing</h4>
+                  <div class="description">
+                    <ul>
+                      <li>This project uses Freemarker to render front-end.</li>
+                      <li>Code snippet that doesn't expired or has a restricted number of view can be access using route /code.</li>
+                      <li>Code snippet that has number of views restriction or time expiration will be accessible at /code/{id}.</li>
+                      <li>Data is persisted in a local H2 database.</li>
+                    </ul>
+                    <a href="https://hyperskill.org/projects/130" class="ui button">Hyperskill's page</a>
+                    <a href="https://github.com/nmiquan/code-sharing-platform" class="ui button">Github's repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="content">
+                  <h4 class="header">Recipe</h4>
+                  <div class="description">
+                    <ul>
+                      <li>Registration is public.</li>
+                      <li>Authentication uses username and password.</li>
+                      <li>Password is encrypted in the database.</li>
+                      <li>Only authenticated user can add and view recipes.</li>
+                      <li>Only owner of the recipe can delete and update a recipe.</li>
+                      <li>Authenticated users can search for recipes using either name or category.</li>
+                      <li>Data is persisted in a local H2 database.</li>
+                    </ul>
+                    <a href="https://hyperskill.org/projects/180" class="ui button">Hyperskill's page</a>
+                    <a href="https://github.com/nmiquan/recipes" class="ui button">Github's repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="content">
+                  <h4 class="header">Web Quiz Engine</h4>
+                  <div class="description">
+                    <ul>
+                      <li>Registraion is public.</li>
+                      <li>Authentication uses username and password.</li>
+                      <li>Password is encrypted in the database.</li>
+                      <li>Only authenticated user can send request to the quiz engine.</li>
+                      <li>Only owner of the recipe can delete the quiz.</li>
+                      <li>The requests' results can be queried with size and pageSize parameters. Deault pageSize is 10.</li>
+                      <li>Data is persited in a local H2 database.</li>
+                    </ul>
+                    <a href="https://hyperskill.org/projects/91" class="ui button">Hyperskill's page</a>
+                    <a href="https://github.com/nmiquan/web-quiz-engine" class="ui button">Github's repository</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="item">
+                <div class="content">
+                  <h4 class="header">Car Sharing</h4>
+                  <div class="description">
+                    <ul>
+                      <li>This project is the most basic out of the four.</li>
+                      <li>It is a command line program.</li>
+                      <li>Data is persisted in H2 database.</li>
+                      <li>The aim of this project is practice using Spring JDBC and implementing Data Access Object pattern.</li>
+                    </ul>
+                    <a href="https://hyperskill.org/projects/140" class="ui button">Hyperskill's page</a>
+                    <a href="https://github.com/nmiquan/car-sharing" class="ui button">Github's repository</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        <h3 class="ui block header attached top">Contact me</h3>
+          <div class="ui segment attached">
+            <div class="content">
+              <div class="description" id="contact-description">
+                <a class="ui envelope button" href="https://github.com/nmiquan">
+                  <i class="envelope icon"></i>
+                  Email 
+                </a>
+                <a class="ui github button" href="https://github.com/nmiquan">
+                  <i class="github icon"></i>
+                  Github
+                </a>
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+      <aside class="side-bar"></aside>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js" async></script>
+  </body>
+
+</html>
