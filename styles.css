@@ -10,9 +10,14 @@
   #main {
     flex-direction: row;
   }
+
   #main aside {
-    width: 90vw;
+    width: 25%;
   }
+}
+
+#content {
+  width: 50%;
 }
 
 h3 {
@@ -29,6 +34,8 @@ footer > div {
   justify-content: center;
   align-items: center;
 }
+
+
 
 #contact-description {
   display: flex;
