@@ -1,5 +1,6 @@
 #main {
   display: flex;
+  height: 100%;
 }
 
 #main aside {
@@ -17,16 +18,19 @@
   }
 
   #main aside {
+    width: 35%;
+  }
+
+  .container {
     width: 30%;
   }
 }
 
-h3 {
+h1, h3 {
   text-align: center;
 }
 
-header h1 {
-  text-align: center;
+header {
   padding: 20px;
 }
 
