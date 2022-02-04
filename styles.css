@@ -2,12 +2,16 @@
   display: flex;
 }
 
+#main aside {
+  width: 0;
+}
+
 .container {
-  width: 40%;
+  width: 100%;
   margin: 10px;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 600px) {
   #main {
     flex-direction: row;
   }
