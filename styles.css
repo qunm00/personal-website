@@ -2,7 +2,8 @@
   display: flex;
 }
 
-#content {
+.container {
+  width: 40%;
   margin: 10px;
 }
 
@@ -12,12 +13,8 @@
   }
 
   #main aside {
-    width: 25%;
+    width: 30%;
   }
-}
-
-#content {
-  width: 50%;
 }
 
 h3 {
@@ -34,8 +31,6 @@ footer > div {
   justify-content: center;
   align-items: center;
 }
-
-
 
 #contact-description {
   display: flex;
