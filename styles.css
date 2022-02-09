@@ -9,7 +9,6 @@
 
 .container {
   width: 100%;
-  margin: 10px;
 }
 
 @media screen and (min-width: 600px) {
@@ -18,13 +17,18 @@
   }
 
   #main aside {
-    width: 35%;
+    width: 30vw;
   }
 
   .container {
-    width: 30%;
+    width: 40vw;
+  }
+
+  li {
+    font-size: 16px;
   }
 }
+
 
 h1, h3 {
   text-align: center;
@@ -34,10 +38,8 @@ header {
   padding: 20px;
 }
 
-footer > div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+span {
+  margin: 20px;
 }
 
 #contact-description {
@@ -46,3 +48,7 @@ footer > div {
   align-items: center;
 }
 
+#live-demo {
+  background-color: orange;
+  color: black;
+}
