@@ -32,13 +32,15 @@
           <div class="ui attached segment">
             <h4 class="ui header">Blog List</h4>
               <ul>
-                  <li>This project is an exercise in Full stack Open Course.</li>
-                  <li>The front-end is styled using Tailwind CSS.</li>
+                  <li>This project is an exercise in Full Stack Open Course.</li>
+                  <li>The back-end is built using Express and connected to Mongodb Atlas.</li>
+                  <li>The front-end is made with React and styled using Tailwind CSS.</li>
                   <li>Authentication uses username and password.</li>
-                  <li>Back-end authentication is token based and not expired.</li>
-                  <li>User can create a blog post with 10 words title limit and 200 words content limit.</li>
-                  <li>Only owner of a blog post can edit and remove a blog post.</li>
-                  <li>Only non-owner of a blog post can like a blog post.</li>
+                  <li>Back-end authentication is token based and does not expire.</li>
+                  <li>A blog post has 10 words title limit and 200 words content limit.</li>
+                  <li>Only authenticated can create a blog post.</li>
+                  <li>Only owner of a blog post can edit and remove the blog post.</li>
+                  <li>Only non-owner of a blog post can like the blog post.</li>
               </ul>
               <a href="https://fullstackopen.com/en/#course-contents" class="ui button">Course Description</a>
               <a href="https://nmiquan-helsinki-bloglist.herokuapp.com/" class="ui button" id="live-demo">Live Demo</a>
@@ -64,7 +66,7 @@
             <h4 class="ui header">Code Sharing</h4>
               <ul>
                 <li>This project uses Freemarker to render front-end.</li>
-                <li>Code snippet that doesn't expired or has a restricted number of views can be access using route /code.</li>
+                <li>Code snippet that doesn't expire or has a restricted number of views can be access using route /code.</li>
                 <li>Code snippet that has number of views restriction or time expiration will be accessible at /code/{id}.</li>
                 <li>Data is persisted in a local H2 database.</li>
               </ul>
